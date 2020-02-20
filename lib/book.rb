@@ -4,6 +4,9 @@ class Book
     @title = title 
   end 
   
+  #properties
+  
+  
   def title
     @title
   end
@@ -31,6 +34,12 @@ class Book
   def genre
     @genre
   end 
+  
+  #actions 
+  
+  def turn_page 
+  end
+  
 end 
 
 Book.new("And Then There Were None")
